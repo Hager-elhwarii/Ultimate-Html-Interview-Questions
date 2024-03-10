@@ -5,46 +5,97 @@
 
 |Sl.No|  Questions                        |
 |----|------------------------------------|
-|----|[this is bla bla section](#q-blah-blah-blah)
-| 01.|[What is the WHATWG?](#q-what-is-the-WHATWG)|
-| 02.|[What is an iframe and how it works?](#q-what-is-an-iframe-and-how-it-works?)|
+| 01.|[What does HTML stand for and what is its purpose?](#q-what-does-html-stand-for-and-what-is-its-purpose?)
+| 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)
 | 03.|[How do you set language in HTML?](#q-how-do-you-set-language-in-HTML?)|
-| 04.|[What is the DOM? How does the DOM work?](#q-what-is-the-dom-how-does-the-dom-work)|
-| 05.|[How does the browser rendering engine work?](#q-how-does-the-browser-rendering-engine-work)|
 | 06.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 07.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
-| 08.|[What are the building blocks of HTML5?](#q-what-are-the-building-blocks-of-html5)|
 | 09.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)
 | 10.|[What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?](#q-what-are-the-benefits-of-server-side-rendering-ssr-over-client-side-rendering-csr)|
 | 11.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 12.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 13.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
-| 14.|[What is the purpose of `main` element?](#q-what-is-the-purpose-of-main-element)|
-| 15.|[Define semantic markup. What are the semantic meanings for `<section>, <article>, <aside>, <nav>, <header>, <footer>` and when/how should each be used in structuring html markup?](#q-define-semantic-markup-what-are-the-semantic-meanings-for-section-article-aside-nav-header-footer-and-when-how-should-each-be-used-in-structuring-html-markup)|
-| 16.|[When should you use `section`, `div` or `article`?](#q-when-should-you-use-section-div-or-article)|
 | 17.|[What is Character Encoding?](#q-what-is-character-encoding)|
 | 18.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
-| 19.|[What does CORS stand for and what issue does it address?](#q-what-does-cors-stand-for-and-what-issue-does-it-address)|
 | 20.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
 | 21.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
-| 22.|[Comparison of browsers engines like Chrome, Firefox, Internet explorer, Safari?](#q-comparison-of-browsers-engines-like-chrome-firefox-internet-explorer-safari)|
 | 23.|[What are `data-` attributes good for?](#q-what-are-data-attributes-good-for)|
-| 24.|[Explain the difference between layout, painting and compositing?](#q-explain-the-difference-between-layout-painting-and-compositing)|
+
+
+why <!DOCTYPE> is important?
+Are HTML elements and tags are the same?
+what is the root of document?
+What is the meta Tag that make media query work ?
+what types of meta tag?
+Difference between link tag <link> and anchor tag <a>?
+What is best place to add script in html?
+is html programming Language ?
+what is name of elements that don’t have closing tag and as what?
 
 <br/>
 
+## Q. ***What does HTML stand for and what is its purpose?***
+HTML or Hyper Text Markup Language is the standard language for creating web pages and applications. HTML5, the latest version as of 2022, introduces several new elements and attributes, elevating user experience and software application standards.
+
+HTML is responsible for structuring web content, ensuring accessibility, and guiding how web pages are visually presented. It remains the foundational structure for running nearly all web content.
 
 
-## Q. ***What is the WHATWG??***
--   The Web Hypertext Application Technology Working Group (WHATWG) is a community of people interested in evolving the web through standards and tests.
--   The WHATWG was founded by individuals of Apple, the Mozilla Foundation, and Opera Software in 2004, after a W3C workshop. Apple, Mozilla and Opera were becoming increasingly concerned about the W3C’s direction with XHTML, lack of interest in HTML, and apparent disregard for the needs of real-world web developers. So, in response, these organisations set out with a mission to address these concerns and the Web Hypertext Application Technology Working Group was born
+## Q. ***Describe the basic structure of an _HTML document_***
 
-## Q. ***What is an iframe and how it works?***
-* An iframe is an HTML document which can be embedded inside another HTML page
-**Example:*
+**HyperText Markup Language** (HTML) serves as the backbone of web content, defining its structure and semantics. We will now walk you through the fundamental elements of an HTML document.
+
+### Basic Structure of an HTML Document
+
+An HTML document consists of two primary sections: the `head` and the `body`.
+
+#### Document Type Declaration (DOCTYPE)
+
+The **Document Type Declaration** (DOCTYPE) is not an HTML tag; it's an instruction to the web browser about what version of HTML the page is written in.
+
 ```html
-<iframe src="https://github.com" height="300px" width="300px"></iframe>
+<!DOCTYPE html>
 ```
+
+This declaration shows that the document is an HTML5 document.
+
+#### HTML Element
+
+The `html` element is the root element of an HTML page. It encompasses the entire content, both head and body.
+
+```html
+<html>
+    <!-- Head and Body Sections Are Nested Inside -->
+</html>
+```
+
+#### Head Section
+
+The `head` section provides meta-information about the document. It isn't displayed in the web browser itself but serves various other purposes, from providing a title to linking external resources.
+
+```html
+<head>
+    <!-- Title and Meta-Tags, Styles, Scripts, etc. -->
+</head>
+```
+
+##### Title Element
+
+The `title` element specifies the document's title, which is displayed in the browser's title bar or tab.
+
+```html
+<title>Your Page Title</title>
+```
+
+#### Body Section
+
+The `body` section encapsulates the document's visible content—what users see and interact with.
+
+```html
+<body>
+    <!-- Content Visible to Users: Headings, Paragraphs, Images, etc. -->
+</body>
+```
+<br>
 
 ## Q. ***How do you set language in HTML?***
 There are multiple ways to set language in HTML
@@ -65,18 +116,6 @@ There are multiple ways to set language in HTML
 </html>
 ```
 
-## Q. ***What is the DOM? How does the DOM work?*** 
-
-***The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.***
-
-Confused? Let me make that simple. Imagine that, every web page is a document and every element( be it text or image or table) inside that webpage is stored in that document as an object in a tree format, which can be manipulated later with a scripting language such as JavaScript. \
-<img src="assets/dom1.png" alt="Dom" /> \
-Now, when a web page is loaded, the browser creates such a document every time which is called, Document Object Model (DOM) of the page.\
-The DOM represents the document as nodes and objects so that programs can change the document structure, style, and content. In that hat way, programming languages connect to the webpage.
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
-
 
 ## Q. ***How does the browser rendering engine work?***
 
@@ -87,8 +126,6 @@ In order to render content the browser has to go through a series of steps:
 * Render Tree
 * Layout
 * Paint
-
-<img src="assets/layers.png" alt="Browser Rendering Engine" />
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -112,20 +149,10 @@ The Doctype declaration informs the web browser about the type and version of HT
 ## Q. ***What happens when DOCTYPE is not given?***
 
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
+
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
-
-## Q. ***What are the building blocks of HTML5?***
-
-* **Semantics**: allowing you to describe more precisely what your content is.
-* **Connectivity**: allowing you to communicate with the server in new and innovative ways.
-* **Offline and storage**: allowing webpages to store data on the client-side locally and operate offline more efficiently.
-* **Multimedia**: making video and audio first-class citizens in the Open Web.
-* **2D/3D graphics and effects**: allowing a much more diverse range of presentation options.
-* **Performance and integration**: providing greater speed optimization and better usage of computer hardware.
-* **Device access**: allowing for the usage of various input and output devices.
-* **Styling**: letting authors write more sophisticated themes.
 
 ## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
@@ -152,15 +179,8 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 </div>
 
 
-## Q. ***What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?***
+## Q. ***What are the Benefits of  Client Side Rendering  Over Server Side Rendering (SSR)(CSR)?***
 
-* We are using server side rendering for two reasons:
-    * performance benefit for our customers
-    * Consistent SEO performance
-
-* The main difference is that for SSR your server’s response to the browser is the HTML of your page that is ready to be rendered, while for CSR the browser gets a pretty empty document with links to your javascript. That means for SSR your browser will start rendering the HTML from your server without having to wait for all the JavaScript to be downloaded and executed.
-    
-* for SSR, the user can start viewing the page while all of that is happening. For the CSR world, you need to wait for all of the above to happen and then have the virtual dom moved to the browser dom for the page to be viewable.
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
@@ -182,41 +202,6 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
   
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content. 
 
-## Q. ***What is the purpose of `main` element?***
-
-The HTML `<main>` element represents the dominant content of the `<body>` of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
-
-```html
-<main role="main">
-    <p>Geckos are a group of usually small, usually nocturnal lizards. 
-       They are found on every continent except Australia.</p>
-    <p>Many species of gecko have adhesive toe pads which enable them to climb walls and even windows.</p>
-</main>
-```
-
-*Note: A document mustn\'t have more than one `<main>` element that doesn't have the hidden attribute specified.*
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
-
-## Q. ***Define semantic markup. What are the semantic meanings for `<section>, <article>, <aside>, <nav>, <header>, <footer>` and when/how should each be used in structuring html markup?***
-
-* `<header>` is used to contain introductory and navigational information about a section of the page. This can include the section heading, the author’s name, time and date of publication, table of contents, or other navigational information.
-
-* `<article>` is meant to house a self-contained composition that can logically be independently recreated outside of the page without losing it’s meaining. Individual blog posts or news stories are good examples.
-
-* `<section>` is a flexible container for holding content that shares a common informational theme or purpose.
-
-* `<footer>` is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content.
-
-## Q. ***When should you use `section`, `div` or `article`?***
-
-* `<section>`, group of content inside is related to a single theme, and should appear as an entry in an outline of the page. It’s a chunk of related content, like a subsection of a long article, a major part of the page (eg the news section on the homepage), or a page in a webapp’s tabbed interface. A section normally has a heading (title) and maybe a footer too.
-
-* `<article>`, represents a complete, or self-contained, composition in a document, page, application, or site and that is, in principle, independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
-
-* `<div>`, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -257,30 +242,6 @@ The META elements can be used to include name/value pairs describing properties 
         <meta name="revisit-after" content="7 days">
         <meta name="distribution" content="web">
         <meta name="robots" content="noodp">
-        
-        <!--Optional Meta Tags-->
-        <meta name="distribution" content="web">
-        <meta name="web_author" content="">
-        <meta name="rating" content="">
-        <meta name="subject" content="Personal">
-        <meta name="title" content=" - Official Website.">
-        <meta name="copyright" content="Copyright 2020">
-        <meta name="reply-to" content="">
-        <meta name="abstract" content="">
-        <meta name="city" content="Bangalore">
-        <meta name="country" content="INDIA">
-        <meta name="distribution" content="">
-        <meta name="classification" content="">
-    
-        <!--Meta Tags for HTML pages on Mobile-->
-        <meta name="format-detection" content="telephone=yes"/>
-        <meta name="HandheldFriendly" content="true"/> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        
-        <!--http-equiv Tags-->
-        <meta http-equiv="Content-Style-Type" content="text/css">
-        <meta http-equiv="Content-Script-Type" content="text/javascript">
       
     <title>HTML5 Meta Tags</title>
   </head>
@@ -292,10 +253,6 @@ The META elements can be used to include name/value pairs describing properties 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
-
-## Q. ***What does CORS stand for and what issue does it address?***
-
-Cross-Origin Resource Sharing (CORS) is a W3C spec that allows cross-domain communication from the browser. By building on top of the XMLHttpRequest object, CORS allows developers to work with the same idioms as same-domain requests. CORS gives web servers cross-domain access controls, which enable secure cross-domain data transfers.
 
 ## Q. ***What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`***
 
@@ -310,6 +267,11 @@ The defer attribute tells the browser to only execute the script file once the H
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+
+
+## Q. ***What are `data-` attributes good for?***
+
+* The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
 
 
 ## Q. ***Ways to improve website performance***
@@ -387,51 +349,6 @@ The defer attribute tells the browser to only execute the script file once the H
 * Don't Scale Images in HTML
 * Make favicon.ico Small and Cacheable
 * Avoid Empty Image src
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
-
-## Q. ***Comparison of browsers engines like Chrome, Firefox, Internet explorer, Safari?***
-
-* Chrome: 
-    * Layout rendering engine **Webkit**. 
-    * JavaScript engine **V8**
-
-* Firefox: 
-    * Layout rendering engine **Gecko**. 
-    * JavaScript engine **Spider monkey**
-        
-* Internet explorer: 
-    * Layout rendering engine **Trident**. 
-    * JavaScript  engine **Chakra**
-        
-* Safari:
-    * Layout rendering engine **Webkit**. 
-    * JavaScript engine JavascriptCore i.e **Nitro**
-
-
-## Q. ***What are `data-` attributes good for?***
-
-* The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
-
-## Q. ***Blah Blah Blah***
-ppppppppppppppppppppppppppppppppp
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-
-
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-
-
-## Q. ***Explain the difference between layout, painting and compositing?***
-
-<img src="lib/img/frame-full.jpg" alt="Browser Engine" />
-
-* **JavaScript**: Typically JavaScript is used to handle work that will result in visual changes, whether it’s jQuery’s animate function, sorting a data set, or adding DOM elements to the page. It doesn’t have to be JavaScript that triggers a visual change, though: CSS Animations, Transitions, and the Web Animations API are also commonly used.
-* **Style calculations**: This is the process of figuring out which CSS rules apply to which elements based on matching selectors, for example, .headline or .nav > .nav__item. From there, once rules are known, they are applied and the final styles for each element are calculated.
-* **Layout**: Once the browser knows which rules apply to an element it can begin to calculate how much space it takes up and where it is on screen. The web’s layout model means that one element can affect others, for example the width of the <body> element typically affects its children’s widths and so on all the way up and down the tree, so the process can be quite involved for the browser.
-* **Paint**: Painting is the process of filling in pixels. It involves drawing out text, colors, images, borders, and shadows, essentially every visual part of the elements. The drawing is typically done onto multiple surfaces, often called layers.
-* **Compositing**: Since the parts of the page were drawn into potentially multiple layers they need to be drawn to the screen in the correct order so that the page renders correctly. This is especially important for elements that overlap another, since a mistake could result in one element appearing over the top of another incorrectly.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
