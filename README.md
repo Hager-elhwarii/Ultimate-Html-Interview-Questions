@@ -5,8 +5,8 @@
 
 |Sl.No|  Questions                        |
 |----|------------------------------------|
-| 01.|[What does HTML stand for and what is its purpose?](#q-what-does-HTML-stand-for-and-what-is-its-purpose?)
-| 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)
+| 01.|[What does HTML stand for and what is its purpose?](#q-what-does-html-stand-for-and-what-is-its-purpose?)|
+| 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)|
 | 03.|[How do you set language in HTML?](#q-how-do-you-set-language-in-HTML?)|
 | 06.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 07.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
@@ -40,7 +40,7 @@ HTML or Hyper Text Markup Language is the standard language for creating web pag
 HTML is responsible for structuring web content, ensuring accessibility, and guiding how web pages are visually presented. It remains the foundational structure for running nearly all web content.
 
 
-## Q. ***Describe the basic structure of an _HTML document_***
+## Q. ***Describe the basic structure of an HTML document***
 
 **HyperText Markup Language** (HTML) serves as the backbone of web content, defining its structure and semantics. We will now walk you through the fundamental elements of an HTML document.
 
