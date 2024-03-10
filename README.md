@@ -1,8 +1,6 @@
 # HTML Interview Questions :bulb: 
 ![image](https://github.com/Hager-elhwarii/HTML-Interview-Questions/assets/80959882/801a5144-2c86-4dd8-ad0e-d7182a543939)
 
-*Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="Star" /> if you like the project.
-
 <br/>
 
 |Sl.No|  Questions                        |
@@ -31,7 +29,6 @@
 | 22.|[Comparison of browsers engines like Chrome, Firefox, Internet explorer, Safari?](#q-comparison-of-browsers-engines-like-chrome-firefox-internet-explorer-safari)|
 | 23.|[What are `data-` attributes good for?](#q-what-are-data-attributes-good-for)|
 | 24.|[Explain the difference between layout, painting and compositing?](#q-explain-the-difference-between-layout-painting-and-compositing)|
-| 25.|[Explain about HTML Layout Engines used by browsers?](#q-explain-about-html-layout-engines-used-by-browsers)|
 
 <br/>
 
@@ -430,20 +427,3 @@ The defer attribute tells the browser to only execute the script file once the H
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
-
-
-## Q. ***Explain about HTML Layout Engines used by browsers?***
-
-|Engine	      |Status	        |Embedded in                                                                           |
-|-------------|-----------------|--------------------------------------------------------------------------------------|
-|WebKit	      |Active	        |Safari browser, plus all browsers hosted on the iOS App Store                         |
-|Blink	      |Active	        |Google Chrome and all other Chromium-based browsers like Opera and Microsoft Edge     |
-|Gecko	      |Active	        |Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox  |
-|KHTML	      |Discontinued	  |Konqueror browser                                                                     |
-|Presto	      |Discontinued	  |formerly in the Opera browser                                                         |
-|EdgeHTML	  |Discontinued	  |formerly in the Microsoft Edge browser                                                |
-|Trident	  |Discontinued	  |Internet Explorer browser and Microsoft Outlook email client                          |
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
