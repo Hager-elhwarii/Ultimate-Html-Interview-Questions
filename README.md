@@ -5,32 +5,22 @@
 
 |Sl.No|  Questions                        |
 |----|------------------------------------|
-| 01.|[What does HTML stand for and what is its purpose?](#q-what-does-html-stand-for-and-what-is-its-purpose?)|
-| 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)|
+| 01.|[What does HTML stand for and what is its purpose?](#q-what-does-HTML-stand-for-and-what-is-its-purpose?)|
+| 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-HTML-document)|
 | 03.|[How do you set language in HTML?](#q-how-do-you-set-language-in-HTML?)|
 | 04.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
-| 07.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
-| 09.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)
-| 10.|[What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?](#q-what-are-the-benefits-of-server-side-rendering-ssr-over-client-side-rendering-csr)|
-| 11.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
-| 12.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
-| 13.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
-| 17.|[What is Character Encoding?](#q-what-is-character-encoding)|
-| 18.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
-| 20.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
-| 21.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
-| 23.|[What are `data-` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
+| 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)
+| 07.|[What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?](#q-what-are-the-benefits-of-server-side-rendering-ssr-over-client-side-rendering-csr)|
+| 08.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
+| 09.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
+| 10.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
+| 11.|[What is Character Encoding?](#q-what-is-character-encoding)|
+| 12.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
+| 13.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
+| 14.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
+| 15.|[What are `data-` attributes good for?](#q-what-are-data-attributes-good-for)|
 
-
-why <!DOCTYPE> is important?
-Are HTML elements and tags are the same?
-what is the root of document?
-What is the meta Tag that make media query work ?
-what types of meta tag?
-Difference between link tag <link> and anchor tag <a>?
-What is best place to add script in html?
-is html programming Language ?
-what is name of elements that don’t have closing tag and as what?
 
 <br/>
 
@@ -39,6 +29,7 @@ HTML or Hyper Text Markup Language is the standard language for creating web pag
 
 HTML is responsible for structuring web content, ensuring accessibility, and guiding how web pages are visually presented. It remains the foundational structure for running nearly all web content.
 
+<br/>
 
 ## Q. ***Describe the basic structure of an HTML document***
 
@@ -115,21 +106,7 @@ There are multiple ways to set language in HTML
 </body>
 </html>
 ```
-
-
-## Q. ***How does the browser rendering engine work?***
-
-In order to render content the browser has to go through a series of steps:
-
-* Document Object Model(DOM)
-* CSS object model(CSSOM)
-* Render Tree
-* Layout
-* Paint
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+<br>
 
 ## Q. ***What does a `<DOCTYPE html>` do?***
 
