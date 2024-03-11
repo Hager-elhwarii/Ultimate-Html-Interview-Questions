@@ -114,23 +114,20 @@ There are multiple ways to set language in HTML
 
 ## Q. ***What does a `<DOCTYPE html>` do?***
 
-Doctype is the abbreviation for the “Document type”. The very first line in every web document should contain a <!DOCTYPE html> declaration. \
-The purpose of DOCTYPE is to tell the browser what type of HTML you are writing. It is not valid to omit the DOCTYPE. There is no “Standard” format. The browser will just try to parse HTML as best it can. But not all elements will be displayed correctly. DOCTYPE is a required part of all HTML documents.\
-To render a HTML4.01 document, use this code at the very top of your document:
-```HTML
-<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01//EN” “http://www.w3.org/TR/html4/strict.dtd">
-```
-To render a HTML5 document, include this code instead:\
-<!doctype html>\
-The Doctype declaration informs the web browser about the type and version of HTML used in building the web document (e.g. HTML5, HTML4.0, XHTML1.0)\
+**DOCTYPE** is an abbreviation for **DOCument TYPE**. A DOCTYPE is always associated to a **DTD** - for **Document Type Definition**.
 
-<br>
+A DTD defines how documents of a certain type should be structured (i.e. a `button` can contain a `span` but not a `div`), whereas a DOCTYPE declares what DTD a document _supposedly_ respects (i.e. this document respects the HTML DTD).
 
-<div align="right">
-    <b><a href="#readme-top">↥ back to top</a></b>
-<div/>
+For webpages, the DOCTYPE declaration is required. It is used to tell user agents what version of the HTML specifications your document respects. Once a user agent has recognized a correct DOCTYPE, it will trigger the **no-quirks mode** matching this DOCTYPE for reading the document. If a user agent doesn't recognize a correct DOCTYPE, it will trigger the **quirks mode**.
 
-<br>
+The DOCTYPE declaration for the HTML5 standards is `<!DOCTYPE html>`.
+
+###### References
+
+- https://html.spec.whatwg.org/multipage/syntax.html#the-doctype
+- https://html.spec.whatwg.org/multipage/xhtml.html
+- https://quirks.spec.whatwg.org/
+
 
 ## Q. ***What happens when DOCTYPE is not given?***
 
@@ -270,7 +267,7 @@ The defer attribute tells the browser to only execute the script file once the H
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-<div/>
+
     
 <br>
 
@@ -282,7 +279,7 @@ The defer attribute tells the browser to only execute the script file once the H
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-<div/> 
+
 
 <br>
     
@@ -366,7 +363,7 @@ The defer attribute tells the browser to only execute the script file once the H
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-<div/>
+
 
 <br>
 
@@ -384,6 +381,6 @@ This project is **Totally Free**,  and does not contain any license.
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-<div/>
+
 
 <br>
