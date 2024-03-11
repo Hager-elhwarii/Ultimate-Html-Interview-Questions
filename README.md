@@ -12,6 +12,7 @@
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
 | 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
+| 06.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
@@ -172,6 +173,10 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 * `Inline:` Here we use the **style** attribute inside the HTML element.
 * `Internal:` Here we use the **<style>** tag inside the **<head>** tag. To apply the style we bind the elements using **id** or **class** attributes.
 * `External:` Here we use the **<link>** tag inside **<head>** tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using **id** or **class** attributes.
+
+## Q. What is HTML Character Entities?
+
+HTML character entities are special codes used to represent characters that have a specific meaning or reserved purpose in HTML, preventing them from being treated as regular HTML code. These entities begin with an ampersand (&) and end with a semicolon (;).
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
