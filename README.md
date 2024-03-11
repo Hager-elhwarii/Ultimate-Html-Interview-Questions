@@ -167,9 +167,9 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 
 ## Q. In how many ways can we specify the CSS styles for the HTML element?
 
-* `Inline:` Here we use the `style` attribute inside the HTML element.
-* `Internal:` Here we use the `<style>` tag inside the `<head>` tag. To apply the style we bind the elements using `id` or `class` attributes.
-* `External:` Here we use the `<link>` tag inside `<head>` tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using `id` or `class` attributes.
+* `Inline:` Here we use the **style** attribute inside the HTML element.
+* `Internal:` Here we use the **<style>** tag inside the **<head>** tag. To apply the style we bind the elements using **id** or **class** attributes.
+* `External:` Here we use the **<link>** tag inside **<head>** tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using **id** or **class** attributes.
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
