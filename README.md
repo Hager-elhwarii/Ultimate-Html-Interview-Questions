@@ -20,6 +20,7 @@
 | 07.|[What is the difference between `display: none` `visibility: hidden` and `opacity: 0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element)|
 | 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
+| 09.|[What is the role of the alt attribute in HTML?](#q-what-is-the-role-of-the-alt-attribute-in-html)|
 | 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
 | 11.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
 | 12.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
@@ -180,8 +181,8 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. What is the difference between an absolute and relative URL?
-* An absolute URL includes the full web address, the protocol (such as http or https) and the domain name (such as www.example.com). 
-* A relative URL, on the other hand, specifies the location of a resource relative to the current web page. For example, a relative URL might include the file path (such as /images/picture.jpg) or the relative path (such as ../images/picture.jpg).
+* An `absolute URL` includes the full web address, the protocol (such as http or https) and the domain name (such as www.example.com). 
+* A `relative URL`, on the other hand, specifies the location of a resource relative to the current web page. For example, a relative URL might include the file path (such as /images/picture.jpg) or the relative path (such as ../images/picture.jpg).
 
 ## Q. Difference between link tag `<link>` and anchor tag `<a>`?
 
@@ -239,6 +240,10 @@ HTML provides a hyperlink - `<a>` tag to specify the links in a webpage. The `hr
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content. 
 
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
+## Q. What is the role of the alt attribute in HTML?
+
+The alt attribute provides alternative text for an image in case the image cannot be displayed. This is important for accessibility, as screen readers can read the alt text to describe the image to visually impaired users.
 
 ## Q. ***What is Character Encoding?***
 
