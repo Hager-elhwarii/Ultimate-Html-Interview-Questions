@@ -12,6 +12,7 @@
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
+| 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
 | 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
@@ -165,6 +166,9 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
+## Q. Difference between link tag `<link>` and anchor tag `<a>`?
+
+* The anchor tag `<a>` is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag `<link>` defines a link between a document and an external resource and these are not clickable
 
 ## Q. ***Name 5 common block-level and inline HTML elements?***
 
