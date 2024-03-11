@@ -3,7 +3,7 @@
 ![image](https://github.com/Hager-elhwarii/HTML-Interview-Questions/assets/80959882/801a5144-2c86-4dd8-ad0e-d7182a543939)
 <br/>
 
-|Q No|   Questions                        |
+|  Q |   Questions                        |
 |----|------------------------------------|
 | 01.|[What does HTML stand for and what is its purpose?](#q-what-does-html-stand-for-and-what-is-its-purpose)|
 | 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)|
