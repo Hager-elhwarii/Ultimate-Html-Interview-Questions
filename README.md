@@ -11,6 +11,7 @@
 | 04.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
+| 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element?)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
@@ -159,9 +160,16 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 | Capacity (per domain)                  | 4kb                                                      | 5MB            | 5MB              |
 | Accessibility                          | Any window                                               | Any window     | Same tab         |
 
-<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 *Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any `cookie`, `localStorage`, or `sessionStorage` stored. It's important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or similar (which of course will persist despite user actions).*
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
+## Q. In how many ways can we specify the CSS styles for the HTML element?
+
+* `Inline:` Here we use the `style` attribute inside the HTML element.
+* `Internal:` Here we use the `<style>` tag inside the `<head>` tag. To apply the style we bind the elements using `id` or `class` attributes.
+* `External:` Here we use the `<link>` tag inside `<head>` tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using `id` or `class` attributes.
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
