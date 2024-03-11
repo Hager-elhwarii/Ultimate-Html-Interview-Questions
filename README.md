@@ -326,7 +326,7 @@ The defer attribute tells the browser to only execute the script file once the H
 ## 🦄   Author
 > If you want to get in-touch with me you can reach me at:
 
--  [Email](http://hager.a.elhawary@gmail.com/)
+-  [Email](https://mail.google.com/mail/?view=cm&to=hager.a.elhawary@gmail.com)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
 
