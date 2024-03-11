@@ -11,7 +11,7 @@
 | 04.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
-| 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element?)|
+| 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
