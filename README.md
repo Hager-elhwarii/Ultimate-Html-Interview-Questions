@@ -16,7 +16,7 @@
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
 | 07.|[In how many ways you can display HTML elements?](#q-in-how-many-ways-you-can-display-html-elements)|
-| 07.|[What is the difference between `display: none` `visibility: hidden` and `opacity:  0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element)|
+| 07.|[What is the difference between `display: none` `visibility: hidden` and `opacity: 0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element)|
 | 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
 | 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
@@ -205,7 +205,7 @@ HTML provides a hyperlink - `<a>` tag to specify the links in a webpage. The `hr
 
   <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
-## Q. What is the difference between `display: none` `visibility: hidden` and `opacity:  0` when used as attributes to the HTML element?
+## Q. What is the difference between `display: none` `visibility: hidden` and `opacity: 0` when used as attributes to the HTML element?
 
 * `display: none`
   - Completely removes and doesn't render the element.
