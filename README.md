@@ -335,4 +335,16 @@ The defer attribute tells the browser to only execute the script file once the H
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
 
-  
+## 🦄   Author
+> If you want to get in-touch with me you can reach me at:
+
+-  [Email](http://hager.a.elhawary@gmail.com/)
+-  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
+-  [GitHub](https://github.com/Hager-elhwarii)
+
+## 📘 License
+This project is **Totally Free**,  and does not contain any license.
+
+<div align="right">
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
