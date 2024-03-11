@@ -15,12 +15,14 @@
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
 | 07.|[In how many ways you can display HTML elements?](#q-in-how-many-ways-you-can-display-html-elements)|
+| 07.|[What is the difference between `display: none`, `visibility: hidden` and `opacity:  0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element.)|
 | 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
 | 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
 | 11.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
 | 12.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
 | 13.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 13.|[How can we club two or more rows or columns into a single row or column in an HTML table?](#q-how-can-we-club-two-or-more-rows-or-columns-into-a-single-row-or-column-in-an-html-table)|
 | 14.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
 
 
@@ -191,7 +193,21 @@ HTML provides a hyperlink - `<a>` tag to specify the links in a webpage. The `hr
 * `inline-flex`: It displays the flex container as an inline element while its content follows the flexbox properties.
 * `grid`: It displays the HTML elements as a grid container.
 * `none`: Using this property we can hide the HTML element.
- 
+
+## Q. What is the difference between `display: none`, `visibility: hidden` and `opacity:  0` when used as attributes to the HTML element?
+
+* `display: none`:
+  - Completely removes and doesn't render the element.
+  - No space is reserved, and it's non-interactive.
+
+* `visibility: hidden`:
+  - Hides the element but still occupies space.
+  - The element remains interactive, affecting layout.
+
+* `opacity: 0`:
+  - Renders the element transparent.
+  - Space is reserved, and it remains interactive.
+
 
 ## Q. ***Name 5 common block-level and inline HTML elements?***
 
@@ -274,7 +290,10 @@ The defer attribute tells the browser to only execute the script file once the H
 
 * The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
   
-    
+## Q. How can we club two or more rows or columns into a single row or column in an HTML table?
+
+* HTML provides two table attributes `rowspan` and `colspan` to make a cell span to multiple rows and columns respectively.
+
 ## Q. ***Ways to improve website performance***
 
 * Minimize HTTP Requests
