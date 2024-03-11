@@ -92,6 +92,8 @@ The `body` section encapsulates the document's visible content—what users see 
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
 
+<br>
+
 ## Q. ***How do you set language in HTML?***
 There are multiple ways to set language in HTML
 *   By setting content-language in headers for language of the page
@@ -123,17 +125,26 @@ To render a HTML4.01 document, use this code at the very top of your document:
 To render a HTML5 document, include this code instead:\
 <!doctype html>\
 The Doctype declaration informs the web browser about the type and version of HTML used in building the web document (e.g. HTML5, HTML4.0, XHTML1.0)\
+
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 ## Q. ***What happens when DOCTYPE is not given?***
 
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 ## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
@@ -155,9 +166,13 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 
 *Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any `cookie`, `localStorage`, or `sessionStorage` stored. It's important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or similar (which of course will persist despite user actions).*
 
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
@@ -170,9 +185,13 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 * block elements `<h1>, <p>, <ul>, <ol>, <li>`,
 * inline elements `<span>, <a>, <strong>, <i>, <img>`
 
+<br> 
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+    
+<br>
 
 ## Q. ***What are semantic and non-semantic elements?***
 
@@ -180,10 +199,13 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
   
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content. 
 
+<br>
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 ## Q. ***What is Character Encoding?***
 
@@ -228,9 +250,13 @@ The META elements can be used to include name/value pairs describing properties 
   </body>
 </html>
 ```
+<br> 
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 ## Q. ***What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`***
 
@@ -240,20 +266,27 @@ The META elements can be used to include name/value pairs describing properties 
     
 The async attribute is used to indicate to the browser that the script file can be executed asynchronously. The HTML parser does not need to pause at the point it reaches the script tag to fetch and execute, the execution can happen whenever the script becomes ready after being fetched in parallel with the document parsing.
 
-The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.     
+The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed. 
+
+<br>
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
-
+    
+<br>
 
 ## Q. ***What are `data` attributes good for?***
 
 * The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
 
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/> 
+
+<br>
     
 ## Q. ***Ways to improve website performance***
 
@@ -331,9 +364,13 @@ The defer attribute tells the browser to only execute the script file once the H
 * Make favicon.ico Small and Cacheable
 * Avoid Empty Image src
 
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
 
 ## 🦄   Author
 > If you want to get in-touch with me you can reach me at:
@@ -345,6 +382,10 @@ The defer attribute tells the browser to only execute the script file once the H
 ## 📘 License
 This project is **Totally Free**,  and does not contain any license.
 
+<br>
+
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
 <div/>
+
+<br>
