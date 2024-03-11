@@ -13,6 +13,7 @@
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
+| 07.|[In how many ways you can display HTML elements?](#q-in-how-many-ways-you-can-display-html-elements)|
 | 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
 | 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
 | 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
@@ -169,6 +170,17 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 ## Q. Difference between link tag `<link>` and anchor tag `<a>`?
 
 * The anchor tag `<a>` is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag `<link>` defines a link between a document and an external resource and these are not clickable
+
+## Q. In how many ways you can display HTML elements?
+
+* `inline`: Using this we can display any block-level element as an inline element. The height and width attribute values of the element will not affect.
+* `block`: using this, we can display any inline element as a block-level element.
+* `inline-block`: This property is similar to inline, except by using the display as inline-block, we can actually format the element using height and width values.
+* `flex`: It displays the container and element as a flexible structure. It follows flexbox property.
+* `inline-flex`: It displays the flex container as an inline element while its content follows the flexbox properties.
+* `grid`: It displays the HTML elements as a grid container.
+* `none`: Using this property we can hide the HTML element.
+ 
 
 ## Q. ***Name 5 common block-level and inline HTML elements?***
 
