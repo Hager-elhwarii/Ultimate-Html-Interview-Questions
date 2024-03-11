@@ -215,6 +215,7 @@ The META elements can be used to include name/value pairs describing properties 
   </body>
 </html>
 ```
+<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
 
 ## Q. ***What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`***
 
@@ -308,7 +309,8 @@ The defer attribute tells the browser to only execute the script file once the H
 * Make favicon.ico Small and Cacheable
 * Avoid Empty Image src
 
-<br>
+<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
+
 
 
 ## 🦄   Author
@@ -321,3 +323,4 @@ The defer attribute tells the browser to only execute the script file once the H
 ## 📘 License
 This project is **Totally Free**,  and does not contain any license.
 
+<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
