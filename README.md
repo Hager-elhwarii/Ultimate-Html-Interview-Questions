@@ -91,6 +91,8 @@ The `body` section encapsulates the document's visible content—what users see 
     <b><a href="#readme-top">↥ back to top</a></b>
 
 <br>
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
 
 ## Q. ***How do you set language in HTML?***
 There are multiple ways to set language in HTML
@@ -110,7 +112,7 @@ There are multiple ways to set language in HTML
 </body>
 </html>
 ```
-<br>
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What does a `<DOCTYPE html>` do?***
 
@@ -128,6 +130,7 @@ The DOCTYPE declaration for the HTML5 standards is `<!DOCTYPE html>`.
 - https://html.spec.whatwg.org/multipage/xhtml.html
 - https://quirks.spec.whatwg.org/
 
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What happens when DOCTYPE is not given?***
 
@@ -151,6 +154,7 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 | Capacity (per domain)                  | 4kb                                                      | 5MB            | 5MB              |
 | Accessibility                          | Any window                                               | Any window     | Same tab         |
 
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 *Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any `cookie`, `localStorage`, or `sessionStorage` stored. It's important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or similar (which of course will persist despite user actions).*
 
@@ -158,6 +162,9 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 
 * `<div>` is a block level element which means it will render it on it's own line with a width of a 100% of the parent element.
 * `<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it's content.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
 
 ## Q. ***Name 5 common block-level and inline HTML elements?***
 
@@ -171,6 +178,7 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
   
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content. 
 
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What is Character Encoding?***
 
@@ -181,6 +189,8 @@ Character encoding is a method of converting bytes into characters. To validate 
 ```
 
 * **UTF-8**: A Unicode Translation Format that comes in 8-bit units that is, it comes in bytes. A character in UTF8 can be from 1 to 4 bytes long, making UTF8 variable width.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What is the purpose of meta tags?***
 
@@ -215,7 +225,7 @@ The META elements can be used to include name/value pairs describing properties 
   </body>
 </html>
 ```
-<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`***
 
@@ -227,6 +237,7 @@ The async attribute is used to indicate to the browser that the script file can 
 
 The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed. 
 
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***What are `data` attributes good for?***
 
@@ -309,8 +320,7 @@ The defer attribute tells the browser to only execute the script file once the H
 * Make favicon.ico Small and Cacheable
 * Avoid Empty Image src
 
-<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
-
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 
 ## 🦄   Author
@@ -323,4 +333,4 @@ The defer attribute tells the browser to only execute the script file once the H
 ## 📘 License
 This project is **Totally Free**,  and does not contain any license.
 
-<p align="right">(<a href="#readme-top">[↑] back to top</a>)</p>
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
