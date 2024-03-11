@@ -88,9 +88,7 @@ The `body` section encapsulates the document's visible content—what users see 
 ```
 <br>
 
-<div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-<div/>
 
 <br>
 
