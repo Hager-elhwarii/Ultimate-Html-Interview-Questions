@@ -137,7 +137,7 @@ The DOCTYPE declaration for the HTML5 standards is `<!DOCTYPE html>`.
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 
-## 🎯 Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
+## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
 **localStorage:** localStorage is a way to store data on the client’s computer. It allows the saving of key/value pairs in a web browser and it stores data with no expiration date. localStorage can only be accessed via JavaScript, and HTML5. However, the user has the ability to clear the browser data/cache to erase all localStorage data.
 
