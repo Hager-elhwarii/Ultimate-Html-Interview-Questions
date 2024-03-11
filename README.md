@@ -18,8 +18,8 @@
 | 11.|[What is Character Encoding?](#q-what-is-character-encoding)|
 | 12.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
 | 13.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
-| 14.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
-| 15.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 14.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 15.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
 
 
 <br/>
@@ -158,9 +158,6 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 </div>
 
 
-## Q. ***What are the Benefits of  Client Side Rendering  Over Server Side Rendering (SSR)(CSR)?***
-
-
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
 * `<div>` is a block level element which means it will render it on it's own line with a width of a 100% of the parent element.
@@ -248,7 +245,7 @@ The defer attribute tells the browser to only execute the script file once the H
 </div>
 
 
-## Q. ***What are `data-` attributes good for?***
+## Q. ***What are `data` attributes good for?***
 
 * The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
 
