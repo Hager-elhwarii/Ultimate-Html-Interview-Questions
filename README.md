@@ -29,7 +29,6 @@ HTML or Hyper Text Markup Language is the standard language for creating web pag
 
 HTML is responsible for structuring web content, ensuring accessibility, and guiding how web pages are visually presented. It remains the foundational structure for running nearly all web content.
 
-
 <br/>
 
 ## Q. ***Describe the basic structure of an HTML document***
@@ -89,6 +88,10 @@ The `body` section encapsulates the document's visible content—what users see 
 ```
 <br>
 
+<div align="right">
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
+
 ## Q. ***How do you set language in HTML?***
 There are multiple ways to set language in HTML
 *   By setting content-language in headers for language of the page
@@ -121,16 +124,16 @@ To render a HTML5 document, include this code instead:\
 <!doctype html>\
 The Doctype declaration informs the web browser about the type and version of HTML used in building the web document (e.g. HTML5, HTML4.0, XHTML1.0)\
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 ## Q. ***What happens when DOCTYPE is not given?***
 
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 ## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
@@ -153,8 +156,8 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 *Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any `cookie`, `localStorage`, or `sessionStorage` stored. It's important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or similar (which of course will persist despite user actions).*
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
@@ -168,8 +171,8 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 * inline elements `<span>, <a>, <strong>, <i>, <img>`
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 ## Q. ***What are semantic and non-semantic elements?***
 
@@ -179,8 +182,8 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 ## Q. ***What is Character Encoding?***
 
@@ -226,8 +229,8 @@ The META elements can be used to include name/value pairs describing properties 
 </html>
 ```
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 ## Q. ***What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`***
 
@@ -240,15 +243,18 @@ The async attribute is used to indicate to the browser that the script file can 
 The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.     
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/>
 
 
 ## Q. ***What are `data` attributes good for?***
 
 * The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
 
-
+<div align="right">
+    <b><a href="#readme-top">↥ back to top</a></b>
+<div/> 
+    
 ## Q. ***Ways to improve website performance***
 
 * Minimize HTTP Requests
@@ -327,6 +333,6 @@ The defer attribute tells the browser to only execute the script file once the H
 
 <div align="right">
     <b><a href="#readme-top">↥ back to top</a></b>
-
+<div/>
 
   
