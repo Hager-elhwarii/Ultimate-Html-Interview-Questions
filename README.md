@@ -3,7 +3,7 @@
 <a name="#"></a>
 <br/>
 
-|Sl.No|  Questions                        |
+|Q No|   Questions                        |
 |----|------------------------------------|
 | 01.|[What does HTML stand for and what is its purpose?](#q-what-does-html-stand-for-and-what-is-its-purpose)|
 | 02.|[Describe the basic structure of an HTML document](#q-describe-the-basic-structure-of-an-html-document)|
