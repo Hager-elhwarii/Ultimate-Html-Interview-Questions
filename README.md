@@ -11,15 +11,14 @@
 | 04.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
-| 07.|[What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?](#q-what-are-the-benefits-of-server-side-rendering-ssr-over-client-side-rendering-csr)|
-| 08.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
-| 09.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
-| 10.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
-| 11.|[What is Character Encoding?](#q-what-is-character-encoding)|
-| 12.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
-| 13.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
-| 14.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
-| 15.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
+| 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
+| 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
+| 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
+| 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
+| 11.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
+| 12.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
+| 13.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 14.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
 
 
 <br/>
