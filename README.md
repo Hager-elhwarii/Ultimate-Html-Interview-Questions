@@ -13,6 +13,7 @@
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
 | 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
 | 06.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
+| 06.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
@@ -177,6 +178,26 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 ## Q. What is HTML Character Entities?
 
 HTML character entities are special codes used to represent characters that have a specific meaning or reserved purpose in HTML, preventing them from being treated as regular HTML code. These entities begin with an ampersand (&) and end with a semicolon (;).
+
+## Q. Differentiate between inline, inline-block and block elements?
+
+ * `Inline elements`
+  - Do not start on a new line.
+  - Occupy only as much width as necessary .
+  - Do not respect vertical styling such as padding, margin, width, and height.
+  
+* `Inline-block elements`
+  - Can start on a new line if there's enough space.
+  - Behave like inline elements but allow setting width, height, margins, and paddings.
+  
+* `Block elements`
+- Start on a new line.
+- Occupy the full width available.
+- Allow setting width, height, margins, and paddings.
+- Respect vertical styling such as padding, margin, width, and height.
+
+  <p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
 
 ## Q. ***What is the difference between a `<span>` and a `<div>`?***
 
@@ -408,6 +429,6 @@ The defer attribute tells the browser to only execute the script file once the H
 -  [GitHub](https://github.com/Hager-elhwarii)
 
 ## 📘 License
-This project is **Totally Free**,  and does not contain any license.
+This repository is **Totally Free**,  and does not contain any license.
 
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
