@@ -13,6 +13,7 @@
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
 | 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
 | 06.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
+| 06.|[What is the difference between href and src attributes?](#q-what-is-the-difference-between-href-and-src-attributes)|
 | 06.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[Define what is a Box model?](#q-define-what-is-a-box-model)|
@@ -180,6 +181,14 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 ## Q. What is HTML Character Entities?
 
 HTML character entities are special codes used to represent characters that have a specific meaning or reserved purpose in HTML, preventing them from being treated as regular HTML code. These entities begin with an ampersand (&) and end with a semicolon (;).
+
+## Q. What is the difference between href and src attributes?
+
+* `href` is for hyperlinks, typically used with anchor <a> pointing to the location of a linked resource.
+  
+* `src` is for embedded content, typically included using elements like <img>, <audio>, <video> indicating the source URL of the resource being included.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. Differentiate between inline, inline-block and block elements?
 
