@@ -15,6 +15,7 @@
 | 06.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
 | 06.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
+| 07.|[Define what is a Box model?](#q-define-what-is-a-box-model)|
 | 07.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
@@ -205,6 +206,10 @@ HTML character entities are special codes used to represent characters that have
 * `<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it's content.
 
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
+## Q. Define what is a Box model?
+
+A box model provides the description for how elements are sized and displayed on the page. Each page may have a width, height, padding, borders, and margins. This is related to the CSS styling property.
 
 ## Q. What is the difference between an absolute and relative URL?
 * An `absolute URL` includes the full web address, the protocol (such as http or https) and the domain name (such as www.example.com). 
