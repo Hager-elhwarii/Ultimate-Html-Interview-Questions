@@ -16,6 +16,7 @@
 | 06.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
 | 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
 | 07.|[Define what is a Box model?](#q-define-what-is-a-box-model)|
+| 07.|[Define Web Worker in HTML?](#q-define-web-worker-in-html)|
 | 07.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
 | 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
 | 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
@@ -211,13 +212,21 @@ HTML character entities are special codes used to represent characters that have
 
 A box model provides the description for how elements are sized and displayed on the page. Each page may have a width, height, padding, borders, and margins. This is related to the CSS styling property.
 
+## Q. Define Web Worker in HTML?
+
+Web worker is a multithread object used for executing JavaScript. It runs in the background and doesn’t affect the performance of the webpage or application.
+
 ## Q. What is the difference between an absolute and relative URL?
 * An `absolute URL` includes the full web address, the protocol (such as http or https) and the domain name (such as www.example.com). 
 * A `relative URL`, on the other hand, specifies the location of a resource relative to the current web page. For example, a relative URL might include the file path (such as /images/picture.jpg) or the relative path (such as ../images/picture.jpg).
+  
+  <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. Difference between link tag `<link>` and anchor tag `<a>`?
 
 * The anchor tag `<a>` is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag `<link>` defines a link between a document and an external resource and these are not clickable.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. How to specify the link in HTML and explain the target attribute?
 
