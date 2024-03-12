@@ -182,19 +182,19 @@ HTML character entities are special codes used to represent characters that have
 ## Q. Differentiate between inline, inline-block and block elements?
 
  * `Inline elements`
-  - Do not start on a new line.
-  - Occupy only as much width as necessary .
-  - Do not respect vertical styling such as padding, margin, width, and height.
+   - Do not start on a new line.
+   - Occupy only as much width as necessary .
+   - Do not respect vertical styling such as padding, margin, width, and height.
   
 * `Inline-block elements`
-  - Can start on a new line if there's enough space.
-  - Behave like inline elements but allow setting width, height, margins, and paddings.
+   - Can start on a new line if there's enough space.
+   - Behave like inline elements but allow setting width, height, margins, and paddings.
   
 * `Block elements`
-- Start on a new line.
-- Occupy the full width available.
-- Allow setting width, height, margins, and paddings.
-- Respect vertical styling such as padding, margin, width, and height.
+  - Start on a new line.
+  - Occupy the full width available.
+  - Allow setting width, height, margins, and paddings.
+  - Respect vertical styling such as padding, margin, width, and height.
 
   <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
