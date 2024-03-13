@@ -409,103 +409,78 @@ Key strategies to improve `SEO` :
    - Use CSS sprites to reduce the number of image requests.
 
 * `Utilize a Content Delivery Network (CDN)`:
-
-Deliver web content from optimized servers around the world, improving load times.
+   - Deliver web content from optimized servers around the world, improving load times.
 
 * `Optimize Images`:
-
-Reduce image sizes by changing resolution, compressing, or cropping.
+   - Reduce image sizes by changing resolution, compressing, or cropping.
 
 * `Place Scripts at the Bottom`:
-
-Allow the rest of the page to load before JavaScript files by placing them at the bottom of the page or using attributes like defer or async.
-Use Expires or Cache-Control Headers:
-
-Make components cacheable to avoid unnecessary HTTP requests on subsequent page views.
+   - Allow the rest of the page to load before JavaScript files by placing them at the bottom of the page or using attributes like defer or async.
+   - Use Expires or Cache-Control Headers:
+   - Make components cacheable to avoid unnecessary HTTP requests on subsequent page views.
 
 * `Enable Gzip Compression`:
-
-Reduce response sizes by about 70% to improve load times.
+   - Reduce response sizes by about 70% to improve load times.
 
 * `Put Stylesheets at the Top`:
-
-Render pages progressively by placing stylesheets in the HEAD of HTML documents.
+   - Render pages progressively by placing stylesheets in the HEAD of HTML documents.
 
 * `Avoid CSS Expressions`:
-
-They can significantly slow down page rendering.
+   - They can significantly slow down page rendering.
 
 * `Use GET for AJAX Requests`:
-
-GET requests are generally faster than POST requests for AJAX.
+   - GET requests are generally faster than POST requests for AJAX.
 
 * `Make JavaScript and CSS External`:
-
-Improve page loading times by using external files that can be cached by the browser.
+   - Improve page loading times by using external files that can be cached by the browser.
 
 * `Avoid 404 Errors`:
-
-Eliminate unnecessary HTTP requests and improve user experience.
+   - Eliminate unnecessary HTTP requests and improve user experience.
 
 *`Reduce Cookie Size`:
-
-Minimize the impact on response time by keeping HTTP cookie sizes low.
+  - Minimize the impact on response time by keeping HTTP cookie sizes low.
 
 * `Minify JavaScript and CSS`:
-
-Reduce file sizes by removing unnecessary characters and white spaces.
+   - Reduce file sizes by removing unnecessary characters and white spaces.
 
 * `Avoid Redirects`:
-
-Redirects add extra HTTP requests and increase load times.
+   - Redirects add extra HTTP requests and increase load times.
 
 * `Remove Duplicate Scripts`:
-
-Eliminate unnecessary duplication to streamline page loading.
+   - Eliminate unnecessary duplication to streamline page loading.
 
 * `Configure Etags`:
-
-Use Etags effectively to reduce unnecessary HTTP requests.
+   - Use Etags effectively to reduce unnecessary HTTP requests.
 
 * `Make Ajax Cacheable`:
-
-Cache AJAX requests to improve performance.
+   - Cache AJAX requests to improve performance.
 
 * `Post-load Components`:
-
-Load non-essential components after the main content.
+   - Load non-essential components after the main content.
 
 * `Preload Components`:
-
-Anticipate user actions and preload necessary components.
+   - Anticipate user actions and preload necessary components.
 
 * `Reduce the Number of DOM Elements`:
-
-Simplify page structure to improve rendering speed.
+   - Simplify page structure to improve rendering speed.
 
 * `Minimize iframes`:
-
-Limit the use of iframes to reduce page complexity.
+   - Limit the use of iframes to reduce page complexity.
 
 * `Minimize DOM Access`:
-
-Optimize JavaScript to minimize DOM manipulation.
+   - Optimize JavaScript to minimize DOM manipulation.
 
 * `Optimize CSS Sprites`:
-
-Combine background images into CSS sprites to reduce image requests.
+   - Combine background images into CSS sprites to reduce image requests.
 
 * `Avoid Scaling Images in HTML`:
-
-Resize images before displaying them to reduce page load times.
+   - Resize images before displaying them to reduce page load times.
 
 * `Make favicon.ico Small and Cacheable`:
-
-Optimize the favicon.ico file for faster loading.
+   - Optimize the favicon.ico file for faster loading.
 
 * `Avoid Empty Image src Attributes`:
-
-Eliminate unnecessary image requests by removing empty src attributes.
+   - Eliminate unnecessary image requests by removing empty src attributes.
 
 <p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
