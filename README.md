@@ -31,8 +31,10 @@
 | 24.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
 | 25.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
 | 26.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
-| 27.|[How can we club two or more rows or columns into a single row or column in an HTML table?](#q-how-can-we-club-two-or-more-rows-or-columns-into-a-single-row-or-column-in-an-html-table)|
-| 28.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
+| 27.|[Differentiate between tags and elements in HTML?](#q-eifferentiate-between-tags-and-elements-in-html)|
+| 28.|[How can we club two or more rows or columns into a single row or column in an HTML table?](#q-how-can-we-club-two-or-more-rows-or-columns-into-a-single-row-or-column-in-an-html-table)|
+| 29.|[What is SEO and How to improve it?](#q-what-is-seo-and-how-to-improve-it)|
+| 30.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
 
 
 <br/>
@@ -366,11 +368,39 @@ The defer attribute tells the browser to only execute the script file once the H
 
 ## Q. ***What are `data` attributes good for?***
 
-* The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
+* The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists.
+
+## Q. Differentiate between tags and elements in HTML?
+
+* `Tag` A keyword or code enclosed in angle brackets (<>) used to define HTML elements.
+* `Element` A combination of an opening tag, its content, and a closing tag (if applicable), representing the building blocks of HTML documents.
   
 ## Q. How can we club two or more rows or columns into a single row or column in an HTML table?
 
 * HTML provides two table attributes `rowspan` and `colspan` to make a cell span to multiple rows and columns respectively.
+
+  <p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
+## Q. What is SEO and How to improve it?
+
+SEO (Search Engine Optimization) is the process of optimizing your website to improve its visibility and ranking in search engine results pages (SERPs). The goal of SEO is to attract more organic (non-paid) traffic to your website by increasing its relevance and authority in the eyes of search engines like Google, Bing, and Yahoo.
+
+* Key strategies to improve `SEO` :
+  
+ - `Keyword Research` : Identify relevant keywords and phrases that your target audience is likely to use when searching for products, services, or information related to your website. Use keyword research tools like 
+ Google Keyword Planner, SEMrush, or Ahrefs to discover high-volume and low-competition keywords.
+
+- `On-Page Optimization` : Optimize your website's on-page elements such as titles, meta descriptions, headings, and content to include your target keywords naturally. Ensure that your content is high-quality, valuable, and relevant to your audience.
+
+- `Quality Content`: Create original, informative, and engaging content that provides value to your audience. Regularly update your website with fresh content, such as blog posts, articles, videos, infographics, and other multimedia formats.
+
+- `Mobile Optimization` : Ensure that your website is mobile-friendly and responsive, as more searches are now performed on mobile devices than on desktop computers. Optimize your website's design and layout for smaller screens and faster loading times.
+
+- `Site Speed` : Improve your website's loading speed by optimizing images, minimizing code, using browser caching, and leveraging content delivery networks (CDNs). Faster-loading websites tend to rank higher in search results and provide a better user experience.
+
+- `User Experience (UX)` : Enhance the user experience of your website by making it easy to navigate, with clear calls-to-action (CTAs), intuitive menus, and user-friendly design. Search engines prioritize websites that offer a positive UX.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
 
 ## Q. ***Ways to improve website performance***
 
