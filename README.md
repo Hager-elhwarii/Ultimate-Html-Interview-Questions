@@ -405,9 +405,8 @@ Key strategies to improve `SEO` :
 ## Q. ***Ways to improve website performance***
 
 * `Minimize HTTP Requests`:
-
- - Combine files like JavaScript and CSS into single files.
- - Use CSS sprites to reduce the number of image requests.
+   - Combine files like JavaScript and CSS into single files.
+   - Use CSS sprites to reduce the number of image requests.
 
 * `Utilize a Content Delivery Network (CDN)`:
 
