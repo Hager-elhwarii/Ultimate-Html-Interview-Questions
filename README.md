@@ -11,27 +11,28 @@
 | 04.|[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
 | 05.|[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
 | 06.|[Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?](#q-describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)|
-| 06.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
-| 06.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
-| 06.|[What is the difference between href and src attributes?](#q-what-is-the-difference-between-href-and-src-attributes)|
-| 06.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
-| 07.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
-| 07.|[Define what is a Box model?](#q-define-what-is-a-box-model)|
-| 07.|[Define Web Worker in HTML?](#q-define-web-worker-in-html)|
-| 07.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
-| 07.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
-| 07.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
-| 07.|[In how many ways you can display HTML elements?](#q-in-how-many-ways-you-can-display-html-elements)|
-| 07.|[What is the difference between `display: none` `visibility: hidden` and `opacity: 0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element)|
-| 08.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
-| 09.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
-| 09.|[What is the role of the alt attribute in HTML?](#q-what-is-the-role-of-the-alt-attribute-in-html)|
-| 10.|[What is Character Encoding?](#q-what-is-character-encoding)|
-| 11.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
-| 12.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
-| 13.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
-| 13.|[How can we club two or more rows or columns into a single row or column in an HTML table?](#q-how-can-we-club-two-or-more-rows-or-columns-into-a-single-row-or-column-in-an-html-table)|
-| 14.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
+| 07.|[In how many ways can we specify the CSS styles for the HTML element?](#q-in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
+| 08.|[What is HTML Character Entities?](#q-what-is-html-character-entities)|
+| 09.|[What is a marquee?](#q-what-is-a-marquee)|
+| 10.|[What is the difference between href and src attributes?](#q-what-is-the-difference-between-href-and-src-attributes)|
+| 11.|[Differentiate between inline, inline-block and block elements.](#q-differentiate-between-inline-inline-block-and-block-elements)|
+| 12.|[What is the difference between a `<span>` and a `<div>`?](#q-what-is-the-difference-between-a-span-and-a-div)|
+| 13.|[Define what is a Box model?](#q-define-what-is-a-box-model)|
+| 14.|[Define Web Worker in HTML?](#q-define-web-worker-in-html)|
+| 15.|[What is the difference between an absolute and relative URL?](#q-what-is-the-difference-between-an-absolute-and-relative-url)|
+| 16.|[Difference between link tag `<link>` and anchor tag `<a>`?](#q-difference-between-link-tag-link-and-anchor-tag-a)|
+| 17.|[How to specify the link in HTML and explain the target attribute?](#q-how-to-specify-the-link-in-html-and-explain-the-target-attribute)|
+| 18.|[In how many ways you can display HTML elements?](#q-in-how-many-ways-you-can-display-html-elements)|
+| 19.|[What is the difference between `display: none` `visibility: hidden` and `opacity: 0` when used as attributes to the HTML element?](#q-what-is-the-difference-between-display-none-visibility-hidden-and-opacity-0-when-used-as-attributes-to-the-html-element)|
+| 20.|[Name 5 common block-level and inline HTML elements?](#q-name-5-common-block-level-and-inline-html-elements)|
+| 21.|[What are semantic and non-semantic elements?](#q-what-are-semantic-and-non-semantic-elements)|
+| 22.|[What is the role of the alt attribute in HTML?](#q-what-is-the-role-of-the-alt-attribute-in-html)|
+| 23.|[What is Character Encoding?](#q-what-is-character-encoding)|
+| 24.|[What is the purpose of meta tags?](#q-what-is-the-purpose-of-meta-tags)|
+| 25.|[What does async and defer refer in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`](#q-what-does-async-and-defer-refer-in-script-tag-describe-the-difference-between-script-script-async-and-script-defer)|
+| 26.|[What are `data` attributes good for?](#q-what-are-data-attributes-good-for)|
+| 27.|[How can we club two or more rows or columns into a single row or column in an HTML table?](#q-how-can-we-club-two-or-more-rows-or-columns-into-a-single-row-or-column-in-an-html-table)|
+| 28.|[Ways to improve website performance](#q-ways-to-improve-website-performance)|
 
 
 <br/>
@@ -181,6 +182,12 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 ## Q. What is HTML Character Entities?
 
 HTML character entities are special codes used to represent characters that have a specific meaning or reserved purpose in HTML, preventing them from being treated as regular HTML code. These entities begin with an ampersand (&) and end with a semicolon (;).
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
+
+## Q. What is a marquee?
+
+A marquee allows you to put scrolling text on a web page. To do this, place whatever text you want to appear scrolling within the <marquee> and </marquee> tags.
 
 ## Q. What is the difference between href and src attributes?
 
