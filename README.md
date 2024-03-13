@@ -385,7 +385,7 @@ The defer attribute tells the browser to only execute the script file once the H
 
 SEO (Search Engine Optimization) is the process of optimizing your website to improve its visibility and ranking in search engine results pages (SERPs). The goal of SEO is to attract more organic (non-paid) traffic to your website by increasing its relevance and authority in the eyes of search engines like Google, Bing, and Yahoo.
 
-* Key strategies to improve `SEO` :
+Key strategies to improve `SEO` :
   
  - `Keyword Research` : Identify relevant keywords and phrases that your target audience is likely to use when searching for products, services, or information related to your website. Use keyword research tools like 
  Google Keyword Planner, SEMrush, or Ahrefs to discover high-volume and low-competition keywords.
