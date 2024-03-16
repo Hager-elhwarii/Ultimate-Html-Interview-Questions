@@ -374,6 +374,8 @@ The defer attribute tells the browser to only execute the script file once the H
 
 * `Tag` A keyword or code enclosed in angle brackets (<>) used to define HTML elements.
 * `Element` A combination of an opening tag, its content, and a closing tag (if applicable), representing the building blocks of HTML documents.
+
+<p align="right"><a href="#readme-top">[↑] back to top</a></p>
   
 ## Q. How can we club two or more rows or columns into a single row or column in an HTML table?
 
